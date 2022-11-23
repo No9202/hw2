@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="hw2.css" />
+    <title>hw2</title>
+    <style>
+           a {
+       text-decoration: none;
+   }
+
+   a:link {
+       /*未访问*/
+       color: burlywood;
+   }
+
+   a:visited {
+       /*已访问*/
+       color: whitesmoke;
+   }
+
+   a:hover {
+       /*鼠标悬浮，需在:link和:visited之后*/
+       color: red;
+   }
+
+   a :active {
+       /*被选中，需在:hover之后*/
+       color: aquamarine;
+   }
+
+   html {
+       height: 100%;
+   }
+
+   header {
+       border: solid 5px aqua;
+       text-align: center;
+   }
+
+   header h1 {
+       color: aliceblue;
+       font: normal 900          45px "楷体";
+       text-shadow: 3px 3px 3px grey;
+   }
+
+   body {
+       min-height: 100%;
+       margin: 0;
+       padding: 0;
+       position: relative;
+
+   }
+
+
+   caption {
+       color: limegreen;
+       font: italic bold 30px "黑体";
+       text-shadow: 2px 2px 2px grey;
+   }
+
+   main {
+       padding-bottom: 190px;
+       text-align: center;
+   }
+
+   footer{
+
+       position: absolute;
+       bottom: 0;
+       width: 100%;
+       height: 80px;
+       line-height: 80px;
+       text-align: center;
+       font-weight: 900;
+       font-size: 24px;
+       background-color: salmon;
+
+   }
+
+   nav ul li {
+
+       display: inline-block;
+       margin: auto 30px;
+       height: auto;
+       width: auto;
+       font-style: italic;
+       font-size: 25px;
+
+
+   }
+
+   ul {
+       margin: 0;
+       padding: 0;
+       border: solid 1px;
+   }
+
+   table {
+       height: 200px;
+       border: solid 5px papayawhip;
+        background-color: blanchedalmond;
+
+   }
+
+   th {
+       font-size: 28px;
+       font-family: "楷体";
+       border: 2px solid pink;
+   }
+
+
+
+   table tr:nth-child(odd) {
+       background-color: aquamarine;
+   }
+
+   table tr:nth-child(even) {
+       background-color: antiquewhite;
+   }
+
+   table tr td:nth-child(odd) {
+       color: mediumslateblue;
+       font: italic 900 20px "宋体";
+       border: 2px solid pink;
+   }
+
+   table tr td:nth-child(even) {
+       color: chocolate;
+       font: normal 800 20px "黑体";
+       border: 2px solid pink;
+   }
+
+
+
+   td img {
+
+       width: 190px;
+       height: 190px;
+       border-top: 3px solid green;
+       border-right: 3px solid red;
+       border-left: 3px solid blue;
+       border-bottom: 3px solid orange;
+       filter: drop-shadow(10px 10px 10px rgba(0,0,0,.5));
+   }
+    </style>
+</head>
+
+<body background="https://github.com/No9202/hw2/blob/main/%E5%AE%B6%E4%B9%A1%E7%9A%84%E5%A4%A9%E7%A9%BA.jpg?raw=true"
+    style="background-repeat:no-repeat; background-attachment:fixed ;background-size:100% 100%">
+    <header>
+        <h1 align="center">哔哩哔哩(゜-゜)つロ 干杯~弹幕网导航</h1>
+        <nav style="background-color: pink;">
+            <ul align="center">
+                <li><a href="https://www.bilibili.com/">📺首页</a></li>
+                <li><a href="https://www.bilibili.com/anime/?spm_id_from=333.1007.0.0">🎈番剧</a></li>
+                <li><a href="https://live.bilibili.com/?spm_id_from=333.1007.0.0">🎫直播</a></li>
+                <li><a
+                        href="https://show.bilibili.com/platform/home.html?msource=pc_web&spm_id_from=333.1007.0.0">🛒会员购</a>
+                </li>
+                <li><a href="https://www.bilibili.com/match/home/?spm_id_from=333.1007.0.0">⚽赛事</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <br><br><br>
+        <table align="center" cellspacing="5">
+            <caption border="2px">WARMAの子供たち悪典</caption>
+            <div>
+                <th colspan="2" style="color:brown;">人物紹介</th>
+                <th colspan="5" style="color:chocolate;">素晴らしい商品</th>
+            </div>
+
+
+            <tr>
+                <td><img src="https://github.com/No9202/hw2/blob/main/1644836268855.jpg?raw=true"></td>
+                <td><img src="https://github.com/No9202/hw2/blob/main/1644836275103.jpg?raw=true"></td>
+                <td><img src="https://github.com/No9202/hw2/blob/main/1644836272916.jpg?raw=true"></td>
+                <td><img src="https://github.com/No9202/hw2/blob/main/1644836284519.jpg?raw=true"></td>
+                <td><img src="https://github.com/No9202/hw2/blob/main/1644836281960.jpg?raw=true"></td>
+                <td><img src="https://github.com/No9202/hw2/blob/main/1644836278819.jpg?raw=true"></td>
+                <td><img src="https://github.com/No9202/hw2/blob/main/1644836287282.jpg?raw=true"></td>
+            </tr>
+            <div>
+                <tr align="center">
+                    <td>芝士沃玛</td>
+                    <td>芝士店员</td>
+                    <td>芝士蜘蛛</td>
+                    <td>芝士螃蟹</td>
+                    <td>芝士乌鸦</td>
+                    <td>芝士鲨鱼</td>
+                    <td>芝士鸭子</td>
+                </tr>
+            </div>
+
+
+
+        </table>
+    </main>
+    <div>
+        <footer>
+            本网页仅供实践作业使用,不做任何商业用途.
+        </footer>
+    </div>
+</body>
+
+</html>
